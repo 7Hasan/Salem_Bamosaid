@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#2c1d11">
+<meta name="description" content="صدقة جارية عن روح سعيد باوزير رحمه الله. قرآن كريم، أذكار، دعاء، بطاقات مشاركة، وتطبيقات نافعة.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="صدقة جارية عن سعيد باوزير رحمه الله">
+<meta property="og:description" content="نسأل الله أن يغفر له ويرحمه، وأن يجعل هذا العمل نافعًا.">
+<meta property="og:image" content="https://7hasan.github.io/Saeed_Bawzeer/campaign.png">
+<meta property="og:url" content="https://7hasan.github.io/Saeed_Bawzeer/">
+<title>صدقة جارية عن سعيد باوزير</title>
+<style>
+/* المتغيرات اللونية: بني فاخر وبيج دافئ */
+:root {
+    --bg-main: #fcf8f2;
+    --card-bg: #ffffff;
+    --brown-dark: #2c1d11;
+    --brown-mid: #5c3a21;
+    --brown-light: #7c5234;
+    --gold: #c89d5c;
+    --gold-soft: #f4ece1;
+    --ink: #221810;
+    --muted: #6e5e52;
+    --border: #ebdcd0;
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg-main);color:var(--ink);font-family:Tahoma,Arial,sans-serif;line-height:1.85}
+a{color:inherit;text-decoration:none}
+
+/* الهيدر بتدرج بني فاخر */
+.hero{background:radial-gradient(circle at 80% 0%,#4a2f1b 0,transparent 40%),linear-gradient(145deg,#2c1d11,#3d2b1d);color:#fff;padding:45px 20px;text-align:center;position:relative;overflow:hidden}.inner{max-width:760px;margin:auto}.bism{color:var(--gold);font-size:14px;letter-spacing:1px}.emblem{width:76px;height:76px;border:1px solid rgba(200,157,92,0.4);border-radius:50%;display:grid;place-items:center;margin:18px auto 10px;color:var(--gold);font-size:34px;background:rgba(200,157,92,0.08)}h1{font-size:clamp(28px,7vw,42px);line-height:1.35;margin:8px 0;color:#fff}.subtitle{color:#e8dad0;margin:0 auto;max-width:520px;font-size:15px}
+.name-card{max-width:480px;margin:24px auto 0;padding:20px;border:1px solid rgba(200,157,92,0.4);border-radius:20px;background:linear-gradient(135deg,rgba(255,255,255,0.08),rgba(255,255,255,0.02));backdrop-filter:blur(6px);display:flex;flex-direction:column;align-items:center;gap:14px;box-shadow:0 10px 30px rgba(0,0,0,0.25)}
+.deceased-img{width:96px;height:96px;border-radius:50%;object-fit:cover;border:3px solid var(--gold);box-shadow:0 4px 15px rgba(0,0,0,0.4)}
+.name-card strong{display:block;font-size:24px;color:var(--gold);text-align:center}
+.name-card p{margin:0;color:#f5ece5;text-align:center;font-size:14px}
+
+/* شريط التنقل */
+nav{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;padding:12px 10px;background:#fff;box-shadow:0 4px 18px rgba(44,29,17,0.08);position:sticky;top:0;z-index:10;border-bottom:1px solid var(--border)}
+nav a{font-size:13px;padding:8px 14px;border-radius:99px;background:var(--gold-soft);color:var(--brown-dark);font-weight:bold;transition:all 0.2s}
+nav a:hover{background:var(--brown-light);color:#fff}
+
+main{max-width:760px;margin:24px auto;padding:0 14px}
+.section{background:var(--card-bg);border:1px solid var(--border);border-radius:22px;padding:22px;margin:16px 0;box-shadow:0 8px 28px rgba(44,29,17,0.04)}
+h2{font-size:21px;margin:0 0 8px;color:var(--brown-dark);display:flex;align-items:center;gap:8px}
+.intro{margin:0 0 16px;color:var(--muted);font-size:14px}
+
+/* الأزرار العامة */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;border:0;border-radius:12px;padding:12px 18px;background:var(--brown-light);color:white;font-weight:bold;font-size:14px;cursor:pointer;transition:background 0.2s}
+.btn:hover{background:var(--brown-mid)}
+.btn.outline{background:#fff;color:var(--brown-light);border:1px solid var(--border)}
+.btn.outline:hover{background:var(--gold-soft)}
+.actions{display:flex;gap:10px;flex-wrap:wrap}
+
+/* الأذكار والأدعية */
+.tilegrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.tile{padding:14px;border-radius:14px;background:var(--bg-main);border:1px solid var(--border)}
+.tile summary{cursor:pointer;list-style:none}.tile summary::-webkit-details-marker{display:none}
+.tile summary strong{display:block;color:var(--brown-dark)}.tile summary span{font-size:12px;color:var(--muted)}
+.tile .ico{font-size:24px}.tile p{font-size:14px;margin:10px 0}
+.dua{background:var(--gold-soft);border-right:4px solid var(--gold);padding:14px 16px;border-radius:12px;margin:12px 0}
+.dua p{margin:0;font-size:16px}
+.small{font-size:12px;color:var(--muted)}
+
+/* محرك البحث الإسلامي المباشر */
+.search-box{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.search-input{flex:1;min-width:200px;padding:12px 14px;border:1px solid var(--border);border-radius:10px;font-family:inherit;font-size:14px}
+.source-select{padding:12px;border:1px solid var(--border);border-radius:10px;font-family:inherit;font-size:13px;background:#fff;color:var(--brown-dark)}
+
+/* معرض البطاقات التفاعلي (Stories) */
+.story-container{position:relative;background:var(--brown-dark);border-radius:16px;overflow:hidden;padding:20px;color:#fff;text-align:center;min-height:220px;display:flex;flex-direction:column;justify-content:center;align-items:center;border:1px solid var(--gold)}
+.story-badge{background:var(--gold);color:var(--brown-dark);padding:4px 10px;border-radius:20px;font-size:12px;font-weight:bold;margin-bottom:12px}
+.story-text{font-size:18px;line-height:1.6;margin-bottom:16px;color:#43260f;font-weight:bold}
+.story-actions{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+
+/* التطبيقات النافعة */
+.apps-grid{display:grid;grid-template-columns:1fr;gap:12px;margin-top:14px}
+.app-card{background:var(--bg-main);border:1px solid var(--border);border-radius:16px;padding:16px;transition:all 0.2s}
+.app-card:hover{border-color:var(--gold)}
+.app-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.app-badge{background:var(--gold-soft);color:var(--brown-dark);font-size:11px;padding:3px 8px;border-radius:6px;font-weight:bold}
+.app-desc{font-size:13px;color:var(--muted);margin:0 0 12px}
+.store-buttons{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
+.store-btn{font-size:12px;padding:8px 12px;border-radius:8px}
+
+/* التفاعليات وسجل الدعاء */
+.interactive-box{background:var(--gold-soft);padding:18px;border-radius:16px;text-align:center;margin-bottom:14px;border:1px solid var(--border)}
+.wall-form{display:flex;flex-direction:column;gap:10px;margin-top:12px}
+.wall-input{width:100%;padding:11px 14px;border:1px solid var(--border);border-radius:10px;font-family:inherit;font-size:14px;background:#fff}
+.wall-messages{max-height:200px;overflow-y:auto;display:flex;flex-direction:column;gap:8px;margin-top:14px;text-align:right}
+.wall-msg-card{background:#fff;padding:10px 14px;border-radius:10px;border:1px solid var(--border);font-size:13px}
+
+/* عداد الزوار وحواشي الموقع */
+.visitor-widget{display:inline-flex;align-items:center;gap:8px;background:#fff;padding:8px 16px;border-radius:99px;border:1px solid var(--border);cursor:pointer;font-size:13px;color:var(--brown-dark);font-weight:bold;box-shadow:0 2px 8px rgba(0,0,0,0.03)}
+footer{text-align:center;padding:30px 15px 40px;color:var(--muted);font-size:12px}
+.campaign{display:block;width:100%;height:auto;border-radius:14px;border:1px solid var(--border)}
+.profile{display:flex;align-items:center;gap:16px}
+.avatar{flex:0 0 76px;width:76px;height:76px;border-radius:50%;object-fit:cover;border:2px solid var(--gold)}
+
+@media(min-width:600px){
+    .hero{padding-top:55px;padding-bottom:50px}
+    .section{padding:26px}
+    .tilegrid{grid-template-columns:repeat(4,minmax(0,1fr))}
+    .apps-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+</style>
+</head>
+<body>
+
+<header class="hero" id="top">
+    <div class="inner">
+        <div class="bism">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</div>
+        <div class="emblem" aria-hidden="true">۞</div>
+        <h1>صدقة جارية<br>عن سالم علي با مساعد</h1>
+        <p class="subtitle">مساحة مباركة للقرآن والذكر والدعاء، نسأل الله أن ينفع بها، وأن يغفر لفقيدنا ويرحمه.</p>
+        <div class="name-card">
+            <img src="saeed.jpg" alt="سعيد باوزير رحمه الله" class="deceased-img" onerror="this.style.display='none'">
+            <div>
+                <strong>سالم علي بامساعد رحمة الله علية</strong>
+                <p>اللهم اغفر له وارحمه، وعافه واعفُ عنه، وأكرم نزله ووسّع مدخله.</p>
+            </div>
+        </div>
+    </div>
+</header>
+
+<nav aria-label="التنقل">
+    <a href="#quran">القرآن الكريم</a>
+    <a href="#search">بحث إسلامي</a>
+    <a href="#cards">بطاقات مشاركة</a>
+    <a href="#dua">الدعاء</a>
+    <a href="#adhkar">الأذكار</a>
+    <a href="#apps">تطبيقات نافعة</a>
+    <a href="#interactive">الأجر والذكر</a>
+    <a href="#wall">سجل الدعاء</a>
+</nav>
+
+<main>
+<!-- 📖 قسم القرآن الكريم -->
+<section class="section" id="quran">
+    <h2>📖 القرآن الكريم</h2>
+    <p class="intro">اقرأ القرآن الكريم أو استمع إلى التلاوات من أصح المصادر الموثوقة.</p>
+    <div class="actions">
+        <a class="btn" href="https://quran.com/ar" target="_blank" rel="noopener noreferrer">افتح المصحف الإلكتروني ↗</a>
+        <a class="btn outline" href="https://everyayah.com/" target="_blank" rel="noopener noreferrer">استمع إلى التلاوات ↗</a>
+    </div>
+</section>
+
+<!-- 🔎 محرك البحث المباشر في الموسوعات الإسلامية (جديد) -->
+<section class="section" id="search">
+    <h2>🔎 البحث الإسلامي المباشر</h2>
+    <p class="intro">ابحث عن صحة الأحاديث أو الفتاوى المعتمدة مباشرة في أضخم الموسوعات الإسلامية.</p>
+    <div class="search-box">
+        <input type="text" id="islamic-search-query" class="search-input" placeholder="اكتب موضوع البحث (مثلاً: فضل الصدقة)...">
+        <select id="search-source" class="source-select">
+            <option value="dorar">الموسوعة الحديثية (الدرر السنية)</option>
+            <option value="islamweb">فتاوى (إسلام ويب)</option>
+            <option value="binbaz">فتاوى (الإمام ابن باز)</option>
+        </select>
+        <button class="btn" onclick="executeIslamicSearch()">بحث الآن ↗</button>
+    </div>
+</section>
+
+<!-- 📱 معرض بطاقات المشاركة للحالة (جديد) -->
+<section class="section" id="cards">
+    <h2>✨ بطاقات الأجر والمشاركة</h2>
+    <p class="intro">بطاقات وأدعية مأثورة جاهزة؛ شاركها في الاستوري جوالك ليصل خيرها للجميع.</p>
+    
+    <div class="story-container" id="story-box" onmouseenter="pauseStory()" onmouseleave="resumeStory()">
+        <span class="story-badge" id="story-category">الصلاة على النبي</span>
+        <div class="story-text" id="story-text">اللهم صلِّ وسلم وبارك على نبينا محمد وعلى آله وصحبه أجمعين.</div>
+        <div class="story-actions">
+            <button class="btn outline" style="color:#43260F;border-color:var(--gold)" onclick="shareCurrentStory()">مشاركة للحالة 📲</button>
+            <button class="btn" style="background:var(--gold);color:var(--brown-dark)" onclick="nextStory()">التالي ⏭</button>
+        </div>
+    </div>
+    <p class="small" style="margin-top:8px;text-align:center">يتغير الدعاء تلقائياً كل 5 ثوانٍ، أو اضغط للتنقل السريع.</p>
+</section>
+
+<!-- 🤲 قسم الدعاء -->
+<section class="section" id="dua">
+    <h2>🤲 ادعُ لسعيد</h2>
+    <p class="intro">الدعاء للميت أثمن هدية تصله في قبره، نسأل الله أن يتغمده بواسع رحمته.</p>
+    <div class="dua"><p>اللهم اغفر لسالم علي بامساعد وارحمه، وعافه واعفُ عنه، وأكرم نزله، ووسّع مدخله.</p></div>
+    <div class="dua"><p>اللهم آنس وحشته، ونوّر قبره، واجعل قبره روضةً من رياض الجنة.</p></div>
+    <div style="margin-top:14px">
+        <button class="btn" onclick="sharePage()">شارك الصفحة ليدعو له الملايين ↗</button>
+    </div>
+</section>
+
+<!-- 🌿 قسم الأذكار اليومية -->
+<section class="section" id="adhkar">
+    <h2>🌿 الأذكار اليومية</h2>
+    <p class="intro">حصن لسانك وقلبك واجعل ثوابها واصلاً لفقيدنا.</p>
+    <div class="tilegrid">
+        <details class="tile"><summary><div class="ico">🌅</div><strong>أذكار الصباح</strong><span>اقرأ الأذكار</span></summary><p>ابدأ يومك بذكر الله.</p><a href="https://hisnmuslim.com/" target="_blank">افتح الحصن ↗</a></details>
+        <details class="tile"><summary><div class="ico">🌇</div><strong>أذكار المساء</strong><span>اقرأ الأذكار</span></summary><p>اختم يومك بذكر الله.</p><a href="https://hisnmuslim.com/" target="_blank">افتح الحصن ↗</a></details>
+        <details class="tile"><summary><div class="ico">🕌</div><strong>بعد الصلاة</strong><span>اقرأ الأذكار</span></summary><p>أذكار ما بعد الصلاة.</p><a href="https://hisnmuslim.com/" target="_blank">افتح الحصن ↗</a></details>
+        <details class="tile"><summary><div class="ico">🌙</div><strong>أذكار النوم</strong><span>اقرأ الأذكار</span></summary><p>أذكار قبل النوم.</p><a href="https://hisnmuslim.com/" target="_blank">افتح الحصن ↗</a></details>
+    </div>
+</section>
+
+<!-- 📱 قسم مكتبة التطبيقات الإسلامية النافعة -->
+<section class="section" id="apps">
+    <h2>📱 مكتبة التطبيقات الإسلامية</h2>
+    <p class="intro">تطبيقات دينية موثوقة وخالية من الإعلانات؛ انشرها و استفد منها.</p>
+    
+    <div class="apps-grid">
+        <div class="app-card">
+            <div class="app-header"><strong style="color:var(--brown-dark)">ختمة (Khatmah)</strong><span class="app-badge">⭐ موثوق</span></div>
+            <p class="app-desc">التطبيق البطل لجدولة وردك اليومي وختم القرآن بسهولة ونظام.</p>
+            <div class="store-buttons">
+                <a href="https://apps.apple.com/us/app/id543090051" target="_blank" class="btn store-btn">📱 App Store</a>
+                <a href="https://play.google.com/store/apps/details?id=com.khatmah.android" target="_blank" class="btn outline store-btn">🤖 Google Play</a>
+            </div>
+        </div>
+
+        <div class="app-card">
+            <div class="app-header"><strong style="color:var(--brown-dark)">آيات (Ayat)</strong><span class="app-badge">⭐ موثوق</span></div>
+            <p class="app-desc">تطبيق مصحف جامعة الملك سعود، صافي وبدون إعلانات مع التفاسير والتلاوات.</p>
+            <div class="store-buttons">
+                <a href="https://apps.apple.com/sa/app/id634325420" target="_blank" class="btn store-btn">📱 App Store</a>
+                <a href="https://play.google.com/store/apps/details?id=sa.edu.ksu.Ayat" target="_blank" class="btn outline store-btn">🤖 Google Play</a>
+            </div>
+        </div>
+
+        <div class="app-card">
+            <div class="app-header"><strong style="color:var(--brown-dark)">ترتيل (Tarteel)</strong><span class="app-badge">⭐ موثوق</span></div>
+            <p class="app-desc">يسمع تلاوتك بالذكاء الاصطناعي ويصحح لك أخطاء القراءة والحفظ.</p>
+            <div class="store-buttons">
+                <a href="https://apps.apple.com/om/app/id1391009396" target="_blank" class="btn store-btn">📱 App Store</a>
+                <a href="https://play.google.com/store/apps/details?id=com.tarteel.app" target="_blank" class="btn outline store-btn">🤖 Google Play</a>
+            </div>
+        </div>
+
+        <div class="app-card">
+            <div class="app-header"><strong style="color:var(--brown-dark)">صلاتك (Salatuk)</strong><span class="app-badge">⭐ موثوق</span></div>
+            <p class="app-desc">منبه دقيق لأوقات الصلاة واتجاه القبلة حسب موقعك الجغرافي.</p>
+            <div class="store-buttons">
+                <a href="https://apps.apple.com/ae/app/id686077611" target="_blank" class="btn store-btn">📱 App Store</a>
+                <a href="https://play.google.com/store/apps/details?id=com.masarat.salati" target="_blank" class="btn outline store-btn">🤖 Google Play</a>
+            </div>
+        </div>
+
+        <div class="app-card">
+            <div class="app-header"><strong style="color:var(--brown-dark)">أذكاري (Azkari)</strong><span class="app-badge">⭐ موثوق</span></div>
+            <p class="app-desc">يظهر لك الأذكار والمسبحة الإلكترونية على الشاشة لتذكيرك الدائم.</p>
+            <div class="store-buttons">
+                <a href="https://apps.apple.com/sa/app/id1459489230" target="_blank" class="btn store-btn">📱 App Store</a>
+                <a href="https://play.google.com/store/apps/details?id=com.azkari.app" target="_blank" class="btn outline store-btn">🤖 Google Play</a>
+            </div>
+        </div>
+
+        <div class="app-card">
+            <div class="app-header"><strong style="color:var(--brown-dark)">مسلمونا (Muslim Muna)</strong><span class="app-badge">⭐ شامل</span></div>
+            <p class="app-desc">يجمع القرآن والأذان وكتب الحديث الشريف وأدعية في تطبيق واحد.</p>
+            <div class="store-buttons">
+                <a href="https://apps.apple.com/us/app/id1534383188" target="_blank" class="btn store-btn">📱 App Store</a>
+                <a href="https://play.google.com/store/apps/details?id=com.muslimmuna.app" target="_blank" class="btn outline store-btn">🤖 Google Play</a>
+            </div>
+        </div>
+
+        <div class="app-card">
+            <div class="app-header"><strong style="color:var(--brown-dark)">الدرر السنية</strong><span class="app-badge">⭐ مرجع علمي</span></div>
+            <p class="app-desc">أسرع وأدق طريقة لمعرفة درجة صحة الحديث النبوي الشريف.</p>
+            <div class="store-buttons">
+                <a href="https://apps.apple.com/sa/app/id1482121176" target="_blank" class="btn store-btn">📱 App Store</a>
+                <a href="https://play.google.com/store/apps/details?id=com.dorar.dorarapp" target="_blank" class="btn outline store-btn">🤖 Google Play</a>
+            </div>
+        </div>
+
+        <div class="app-card">
+            <div class="app-header"><strong style="color:var(--brown-dark)">حصن المسلم</strong><span class="app-badge">⭐ أساسي</span></div>
+            <p class="app-desc">رفيقك اليومي لكافة الأدعية والأذكار النبوية المأثورة.</p>
+            <div class="store-buttons">
+                <a href="https://apps.apple.com/us/app/id6756063062" target="_blank" class="btn store-btn">📱 App Store</a>
+                <a href="https://play.google.com/store/apps/details?id=com.tahamajdlawi.hesn_muslim_app" target="_blank" class="btn outline store-btn">🤖 Google Play</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ⚡ قسم التفاعل وعداد التسبيح -->
+<section class="section" id="interactive">
+    <h2>⚡ عداد الأجر والتسبيح</h2>
+    <p class="intro">أعمال يسيرة تترك أثراً عظيماً في ميزان حسنات الفقيد بإذن الله.</p>
+    
+    <div class="interactive-box">
+        <strong style="color: var(--brown-dark); display: block; margin-bottom: 6px;">الاستغفار والتسبيح لروح الفقيد</strong>
+        <p class="small" style="margin-bottom: 12px;">انقر في كل مرة تقرأ فيها ذكراً أو استغفاراً:</p>
+        <button class="btn" onclick="incrementTasbeeh()" id="tasbeeh-btn">استغفر الله العظيم (0)</button>
+    </div>
+
+    <div class="interactive-box">
+        <strong style="color: var(--brown-dark); display: block; margin-bottom: 6px;">تسجيل زيارة ودعاء</strong>
+        <p class="small" style="margin-bottom: 12px;">سجّل حضورك اليومي بالدعاء له:</p>
+        <button class="btn outline" onclick="recordDua()" id="dua-count-btn">دعوتُ له اليوم ❤️ (<span>142</span>)</button>
+    </div>
+</section>
+
+<!-- 📝 ركن الدعاء والتعزية -->
+<section class="section" id="wall">
+    <h2>📝 ركن الدعاء والتعزية</h2>
+    <p class="intro">اكتب كلمة طيبة أو دعاءً لسالم بامساعد ليبقى أثره هنا.</p>
+    
+    <div class="wall-form">
+        <input type="text" id="visitor-name" class="wall-input" placeholder="اسمك أو صفتك (اختياري، مثلاً: محب للخير)">
+        <textarea id="visitor-dua" class="wall-input" rows="2" placeholder="اكتب دعاءً للفقيد..."></textarea>
+        <button class="btn" onclick="addDuaMessage()">إرسال الدعاء ونشره</button>
+    </div>
+
+    <div class="wall-messages" id="messages-container"></div>
+</section>
+
+<section class="section">
+    <div class="profile">
+        <img src="saeed.jpg" alt="سالم بامساعد" class="avatar" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'76\' height=\'76\'><rect width=\'100%\' height=\'100%\' fill=\'%23c89d5c\'/><text x=\'50%\' y=\'50%\' font-size=\'32\' text-anchor=\'middle\' dominant-baseline=\'central\' fill=\'%232c1d11\' font-family=\'Tahoma\'>س</text></svg>'">
+        <div>
+            <h2 style="margin-bottom:0">ذكر طيب ودعاء</h2>
+            <p>سالم بامساعد رحمه الله عليه</p>
+            <p class="small">اللهم اجعل هذا العمل نافعًا وخالصًا لوجهك الكريم وشافعا لسالم بامساعد.</p>
+        </div>
+    </div>
+</section>
+</main>
+
+<footer>
+    <!-- عداد الزوار الحقيقي مع زر العين -->
+    <div style="margin-bottom: 16px;">
+        <div class="visitor-widget" onclick="toggleRealVisitorCount()" title="انقر لإظهار أو إخفاء عدد الزوار الحقيقي">
+            <span id="eye-icon">🔒</span>
+            <span>عدد الزوار: <span id="visitor-count" style="display:none; margin-right: 4px;">جاري التحميل...</span></span>
+        </div>
+    </div>
+    اللهم اغفر له وارحمه، واجعل هذا العمل نافعًا وخالصًا لوجهك الكريم.<br>يرجى مراجعة الروابط والمحتوى دوريًا.
+</footer>
+
+<script>
+// PWA Service Worker (التصفح بدون إنترنت)
+if ('serviceWorker' in navigator) {
+    const swCode = `
+        self.addEventListener('install', e => e.waitUntil(caches.open('saeed-v1').then(c => c.addAll(['./']))));
+        self.addEventListener('fetch', e => e.respondWith(caches.match(e.request).then(r => r || fetch(e.request))));
+    `;
+    const blob = new Blob([swCode], {type: 'application/javascript'});
+    navigator.serviceWorker.register(URL.createObjectURL(blob)).catch(()=>{});
+}
+
+// دالة البحث الإسلامي المباشر
+function executeIslamicSearch() {
+    const q = document.getElementById('islamic-search-query').value.trim();
+    const src = document.getElementById('search-source').value;
+    if (!q) { alert('الرجاء كتابة كلمة البحث أولاً.'); return; }
+    
+    let url = '';
+    if (src === 'dorar') {
+        url = `https://dorar.net/hadith/search?q=${encodeURIComponent(q)}`;
+    } else if (src === 'islamweb') {
+        url = `https://www.islamweb.net/ar/articles/index.php?page=expsearch&stxt=${encodeURIComponent(q)}`;
+    } else if (src === 'binbaz') {
+        url = `https://binbaz.org.sa/search?q=${encodeURIComponent(q)}`;
+    }
+    window.open(url, '_blank');
+}
+
+// مصفوفة ومعرض بطاقات الحالة (Stories)
+const stories = [
+    { text: "اللهم صلِّ وسلم وبارك على نبينا محمد وعلى آله وصحبه أجمعين.", cat: "الصلاة على النبي" },
+    { text: "اللهم في يوم الجمعة اجعل لنا نصيباً من كل خير، واغفر لنا ولوالدينا.", cat: "يوم الجمعة" },
+    { text: "اللهم اغفر للمؤمنين والمؤمنات والمسلمين والمسلمات الأحياء منهم والأموات.", cat: "دعاء عام" },
+    { text: "اللهم بلغنا رمضان ووفقنا فيه للصيام والقيام إيماناً واحتساباً.", cat: "أدعية رمضانية" },
+    { text: "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ ، سُبْحَانَ اللَّهِ الْعَظِيمِ.", cat: "أذكار مضاعفة" }
+];
+let currentStoryIdx = 0;
+let storyTimer = setInterval(nextStory, 5000);
+
+function showStory(idx) {
+    document.getElementById('story-category').innerText = stories[idx].cat;
+    document.getElementById('story-text').innerText = stories[idx].text;
+}
+
+function nextStory() {
+    currentStoryIdx = (currentStoryIdx + 1) % stories.length;
+    showStory(currentStoryIdx);
+}
+
+function pauseStory() { clearInterval(storyTimer); }
+function resumeStory() { storyTimer = setInterval(nextStory, 5000); }
+
+async function shareCurrentStory() {
+    const textToShare = `${stories[currentStoryIdx].text}\n\n${window.location.href}`;
+    if (navigator.share) {
+        try {
+            await navigator.share({ title: document.title, text: textToShare });
+        } catch(e) {}
+    } else {
+        navigator.clipboard.writeText(textToShare);
+        alert('تم نسخ الدعاء والرابط! يمكنك لصقها الآن في حالتك بسهولة.');
+    }
+}
+
+// مشاركة الصفحة
+async function sharePage(){
+    const data={title:document.title,text:"صدقة جارية عن سالم بامساعد رحمه الله علية، نسألكم الدعاء له.",url:location.href};
+    try{
+        if(navigator.share){await navigator.share(data)}
+        else if(navigator.clipboard){await navigator.clipboard.writeText(location.href);alert("تم نسخ رابط الصفحة بنجاح.")}
+        else{prompt("انسخ رابط الصفحة:",location.href)}
+    }catch(e){}
+}
+
+// عدادات التسبيح والدعاء LocalStorage
+let tasbeehCount = localStorage.getItem('saeed_tasbeeh') || 0;
+let duaCount = parseInt(localStorage.getItem('saeed_duas') || 142);
+document.getElementById('tasbeeh-btn').innerText = `استغفر الله العظيم (${tasbeehCount})`;
+document.querySelector('#dua-count-btn span').innerText = duaCount;
+
+function incrementTasbeeh() {
+    tasbeehCount++;
+    localStorage.setItem('saeed_tasbeeh', tasbeehCount);
+    document.getElementById('tasbeeh-btn').innerText = `استغفر الله العظيم (${tasbeehCount})`;
+}
+
+function recordDua() {
+    duaCount++;
+    localStorage.setItem('saeed_duas', duaCount);
+    document.querySelector('#dua-count-btn span').innerText = duaCount;
+    alert('جزاك الله خيراً، تقبل الله دعاءك وغفر لسالم بامساعد ولجميع أموات المسلمين.');
+}
+
+// عداد الزوار الحقيقي API
+let isCountVisible = false;
+async function toggleRealVisitorCount() {
+    isCountVisible = !isCountVisible;
+    const countSpan = document.getElementById('visitor-count');
+    const eyeIcon = document.getElementById('eye-icon');
+    
+    if (isCountVisible) {
+        eyeIcon.textContent = '👁️';
+        countSpan.style.display = 'inline';
+        try {
+            let response = await fetch('https://api.countapi.xyz/hit/7hasan_salem_bamosaid/visits');
+            let data = await response.json();
+            countSpan.textContent = data.value;
+        } catch (error) {
+            let fallbackVisits = localStorage.getItem('salem_fallback_visits') || 1250;
+            fallbackVisits = parseInt(fallbackVisits) + 1;
+            localStorage.setItem('saeed_fallback_visits', fallbackVisits);
+            countSpan.textContent = fallbackVisits;
+        }
+    } else {
+        eyeIcon.textContent = '🔒';
+        countSpan.style.display = 'none';
+    }
+}
+
+// سجل الدعاء والتعزية
+const defaultMessages = [
+    {name: "فاعل خير", text: "اللهم اجعل قبره روضة من رياض الجنة وأسكنه الفردوس الأعلى."},
+    {name: "أبو سالم", text: "رحمه الله وأحسنا إليه، نسأل الله أن يكتب أجر هذا العمل في ميزان حسناته."}
+];
+
+function loadMessages() {
+    let saved = JSON.parse(localStorage.getItem('saeed_wall_msgs')) || defaultMessages;
+    const container = document.getElementById('messages-container');
+    container.innerHTML = '';
+    saved.forEach(msg => {
+        const card = document.createElement('div');
+        card.className = 'wall-msg-card';
+        card.innerHTML = `<strong>${msg.name || 'زائر كريم'}</strong><p style="margin:4px 0 0">${msg.text}</p>`;
+        container.appendChild(card);
+    });
+}
+
+function addDuaMessage() {
+    const nameInput = document.getElementById('visitor-name');
+    const textInput = document.getElementById('visitor-dua');
+    const text = textInput.value.trim();
+    if(!text) { alert('الرجاء كتابة الدعاء قبل الإرسال.'); return; }
+    
+    let saved = JSON.parse(localStorage.getItem('saeed_wall_msgs')) || defaultMessages;
+    saved.unshift({name: nameInput.value.trim() || 'زائر كريم', text: text});
+    localStorage.setItem('saeed_wall_msgs', JSON.stringify(saved));
+    
+    textInput.value = ''; nameInput.value = '';
+    loadMessages();
+    alert('جزاك الله خيراً، تم نشر دعائك في ركن الدعاء.');
+}
+
+window.onload = loadMessages;
+</script>
+</body>
+</html>
